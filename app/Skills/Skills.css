@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dropdown-animation {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+  }
+  
+  .dropdown-content {
+    padding: 10px 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+  }
+  
+  .skill-section:hover .dropdown-content {
+    max-height: 100px; /* Adjust based on content */
+    opacity: 1;
+  }
+  
+  .skill-section {
+    transition: background-color 0.3s ease;
+  }
+  
+  .skill-section:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Lighten background on hover */
+  }
+  
+  h1 {
+    transition: color 0.3s ease;
+  }
+  
+  h1:hover {
+    color: #ffcc00; /* Change color on hover */
+  }
