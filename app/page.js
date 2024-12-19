@@ -8,27 +8,34 @@ import Project from './Projects/page';
 import Contact from './Contact/page';
 
 const Home = () => (
-  <div className="relative bg-gray-900 min-h-screen overflow-hidden ml-48"> {/* Added 'ml-48' to offset the sidebar width */}
+  <div className="relative bg-gray-900 min-h-screen">
+    {/* Hover Effect in Background */}
     <HoverEffect />
-    <div className="relative z-10">
-      <Header />
-      <HeroSection />
-      <div id="about">
+    
+    {/* Header */}
+    <Header />
+
+    {/* Main Content */}
+    <main className=" lg:ml-60">
+      <section id="hero" >
+        <HeroSection />
+      </section>
+      <section id="about" >
         <About />
-      </div>
-      <div id="skills">
+      </section>
+      <section id="skills">
         <Skills />
-      </div>
-      <div id="exp">
+      </section>
+      <section id="exp">
         <Experience />
-      </div>
-      <div id="proj">
+      </section>
+      <section id="proj">
         <Project />
-      </div>
-      <div id="contact">
+      </section>
+      <section id="contact">
         <Contact />
-      </div>
-    </div>
+      </section>
+    </main>
   </div>
 );
 

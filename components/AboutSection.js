@@ -1,5 +1,5 @@
 const AboutSection = () => (
-  <section id="about" className="relative bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white py-16 px-8 md:py-20 md:px-16 lg:py-24 lg:px-32 ml-1">
+  <section id="about" className="relative bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white py-16 px-8 md:py-20 md:px-16 lg:py-24 lg:px-32 ">
     <div className="max-w-4xl mx-auto">
       {/* Heading */}
       <h2 className="text-4xl font-extrabold text-center mb-8">About Me</h2>
