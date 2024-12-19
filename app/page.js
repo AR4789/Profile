@@ -16,20 +16,20 @@ const Home = () => (
     <Header />
 
     {/* Main Content */}
-    <main className=" lg:ml-60">
-      <section id="hero" >
+    <main className="lg:ml-60 flex-1 mt-16 lg:mt-0"> {/* Add margin-top to avoid content hiding */}
+      <section id="hero">
         <HeroSection />
       </section>
-      <section id="about" >
+      <section id="about">
         <About />
       </section>
       <section id="skills">
         <Skills />
       </section>
-      <section id="exp">
+      <section id="experience">
         <Experience />
       </section>
-      <section id="proj">
+      <section id="projects">
         <Project />
       </section>
       <section id="contact">
